@@ -1,0 +1,24 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# YOLO outputs, runs, and downloaded heavy models
+runs/
+*.pt
+yolov8x.pt
+
+# Input and Output Videos (Kyunki ye heavy hote hain, GitHub par upload nahi karna chahiye)
+input_videos/*.mp4
+output_videos/
+
+# IDE specific files
+.vscode/
+.idea/
